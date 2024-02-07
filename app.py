@@ -70,7 +70,7 @@ def tweet():
     return '', 200
 
 
-@app.route('/flow', methods=['POST'])
+@app.route('/follow', methods=['POST'])
 def follow():
     payload	      = request.json
     user_id	      = int(payload['id'])
