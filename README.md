@@ -25,6 +25,38 @@ conda deativate api
 ```
 
 
+mysql 설정
+
+```
+mysql.server start
+```
+
+```
+mysql_secure_installation
+```
+
+```
+mysql.server status
+```
+
+```
+mysql.server stop
+```
+
+password : 12345678
+
+
+
+```
+CREATE DATABASE miniter;
+```
+
+```
+USE miniter;
+```
+
+
+
 
 #### reference
 
