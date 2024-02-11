@@ -6,56 +6,17 @@
 - Make python env used by conda
 
 ```
-conda create --name api python=3.8
-```
-
-activate env
-```
+conda create --name api python=3.7
 conda activate api
-```
-
-install python lib
-```
 pip install -r requirements.txt
 ```
 
-deactivate env
-```
-conda deativate api
-```
 
 
-mysql 설정
+- Install httpie
+```brew install httpie # MacOS```
 
-```
-mysql.server start
-```
-
-```
-mysql_secure_installation
-```
-
-```
-mysql.server status
-```
-
-```
-mysql.server stop
-```
-
-password : 12345678
-
-
-
-```
-CREATE DATABASE miniter;
-```
-
-```
-USE miniter;
-```
-
-
+```sudo apt install httpie # ubuntu```
 
 
 #### reference
