@@ -13,8 +13,8 @@ pip install -r requirements.txt
 
 
 
-- Install httpie
-```brew install httpie # MacOS```
+- Install httpie      
+```brew install httpie # MacOS```      
 
 ```sudo apt install httpie # ubuntu```
 
